@@ -1,0 +1,106 @@
+/*MEDIA FOR 1100PX*/
+@media (max-width: 1100px) {
+    .header__content, .hero__content,
+    .professional__info__content ,.projects__content, .contacts__content    {
+        width: 90%;
+        transition: 0.5s;
+    }
+
+    .projects__card__container {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .project__block:hover {
+        margin-top: 0px;
+    }
+}
+
+/*MEDIA FOR 1000PX*/
+@media (max-width: 1000px) {
+    .hero__content {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image__container {
+        margin-bottom: 25px;
+    }
+
+    .hero__text__content {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__text {
+        text-align: center;
+    }
+}
+
+/*MEDIA FOR 800PX*/
+@media (max-width: 800px) {
+    .image__container, .main__image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .greeting__text {
+        font-size: 35px;
+    }
+
+    .about__text {
+        font-size: 18px;
+    }
+
+    .work__exp__title, .hard__skills__title, .soft__skills__title, .projects__title, .contacts__title   {
+        font-size: 30px;
+    }
+
+    .company__name, .work__tasks, .skill__info, .contacts__text   {
+        font-size: 20px;
+    }
+
+    .telegram__icon, .vk__icon, .instagram__icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/*MEDIA FOR 500PX*/
+@media (max-width: 500px) {
+
+    /*Активирую БУРГЕР МЕНЮ*/
+    .header__container {
+        justify-content: center;
+        align-items: flex-start;
+
+        overflow: hidden;
+
+
+        /*height: 100vh;*/
+        transition: 0.5s;
+    }
+
+    .burger__menu__btn {
+        display: flex;
+    }
+
+    .header__menu {
+        position: absolute;
+        width: 100%;
+
+        top: 50px;
+        left: 0;
+
+        box-sizing: border-box;
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+}
