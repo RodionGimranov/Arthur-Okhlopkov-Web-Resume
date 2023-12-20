@@ -76,6 +76,7 @@
         align-items: flex-start;
 
         overflow: hidden;
+        ransition: 0.5s;
     }
 
     .burger__menu__btn {
